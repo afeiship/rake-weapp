@@ -1,0 +1,17 @@
+{
+  "name": "rake-weapp",
+  "version": "1.0.0",
+  "description": "Some weapp task.",
+  "main": "index.rake",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/rake-weapp.git"
+  },
+  "keywords": ["rake", "task"],
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/rake-weapp/issues"
+  },
+  "homepage": "https://github.com/afeiship/rake-weapp#readme"
+}
