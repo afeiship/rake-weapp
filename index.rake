@@ -21,4 +21,11 @@ namespace :weapp do
     # write:
     File.write(args[:filename], JSON.pretty_generate(json_object))
   end
+
+  desc "Update page.json"
+  task :page_configuration, [:config, :filename] do |task, args|
+    json_object = JSON.parse File.read(args[:filename])
+    json_object.merge!(args[:config])
+    File.write(args[:filename], JSON.pretty_generate(json_object))
+  end
 end
